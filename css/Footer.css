@@ -1,0 +1,264 @@
+.Footer-Explore
+{
+    margin-top: 50px;
+    background-color:#1c1c30ef;
+    height: 650px;
+    padding: 40px;
+}
+
+.Footer-About 
+{
+    background-color:#0d0d1fef;
+    height: 350px;
+    padding-left: 40px; 
+}
+
+.Companies
+{
+    margin-top: -30px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.text
+{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.text p
+{
+    display: inline;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.text .text-highlight
+{
+    color: #ceceffef !important;
+    margin: 0 2px;
+    padding: 0;
+}
+
+.text-highlight:hover
+{
+    color: #ceceffef !important;
+    margin: 0 2px;
+    padding: 0;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    cursor: pointer;
+}
+
+.nasdaq-logo
+{
+    margin-left: auto;
+    display: inline-block;
+    width: 120px;
+    height: 70px;
+    background-color: white;
+    -webkit-mask: url(../assets/Nasdaq.png) no-repeat center / contain;
+    mask: url(../assets/Nasdaq.png) no-repeat center / contain;
+    opacity: 0.7;
+}
+
+.volkswagon-logo
+{
+    display: inline-block;
+    width: 90px;
+    height: 70px;
+    background-color: white;
+    -webkit-mask: url(../assets/volkswagon.svg) no-repeat center / contain;
+    mask: url(../assets/volkswagon.svg) no-repeat center / contain;
+    opacity: 0.7;
+}
+
+.netapp-logo 
+{
+    display: inline-block;
+    width: 120px;
+    height: 70px;
+    background-color: white;
+    -webkit-mask: url(../assets/netapp.svg) no-repeat center / contain;
+    mask: url(../assets/netapp.svg) no-repeat center / contain;
+    opacity: 0.7;
+}
+
+.eventbrite-logo 
+{
+    display: inline-block;
+    width: 120px;
+    height: 70px;
+    background-color: white;
+    -webkit-mask: url(../assets/eventbrite.png) no-repeat center / contain;
+    mask: url(../assets/eventbrite.png) no-repeat center / contain;
+    opacity: 0.7;
+}
+
+
+.white-line { 
+    margin-top: 20px;
+    width: calc(100% + 100px);
+    height: 1px;
+    background-color: white;
+    box-sizing: border-box;
+    margin-left: -50px;
+    margin-bottom: 0;
+}
+
+.Footer-Explore-Container
+{
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: max-content;
+    gap: 40px;
+    align-items: start;
+    align-content: start;
+}
+
+.Explore-Title
+{
+     display: inline;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.Footer-Explore-Items
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: start;
+}
+
+.Footer-Explore-Item
+{
+    display: flex;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+.Footer-Explore-Item:hover
+{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    cursor: pointer;
+
+}
+
+.white-line2 { 
+    margin-top: 20px;
+    width: 110vw;
+    height: 1px;
+    background-color: white;
+    box-sizing: border-box;
+    margin-left: calc(-50vw + 40%);
+    margin-bottom: 0;
+    grid-column: 1 / -1;
+}
+
+.Footer-Explore-Item-Title
+{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.Footer-Copyright-Container
+{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Udemy-Logo {
+    margin-right: 20px;
+}
+
+.Copyright {
+    margin-right: 20px;
+}
+
+.Udemy-Logo
+{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    -webkit-mask: url(../assets/Udemy_logo.svg.png) no-repeat center / contain;
+    mask: url(../assets/Udemy_logo.svg.png) no-repeat center / contain;
+}
+
+.Copyright
+{
+    font-size: 14px;
+    color: white;
+}
+
+.Cookies
+{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    flex: 1;
+    text-align: center;
+    margin-right:50px;
+}
+
+.Cookies:hover
+{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+}
+
+.Language
+{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    -webkit-mask: url(../assets/globe.svg) no-repeat center / contain;
+    mask: url(../assets/globe.svg) no-repeat center / contain;
+    opacity: 0.7;
+}
+
+.Language-Text
+{
+    font-size: 16px;
+    color: white;
+    display: inline;
+    margin-right: 45px;
+}
+
+.Footer-Copyright-Container .Language {
+    margin-left: auto;
+    padding-right: 40px;
+}
+
+
+
+

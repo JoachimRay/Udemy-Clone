@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     await loadComponent('course-recommendations', 'components/course-recommendations.html');
     await loadComponent('courses-grid-2', 'components/courses-grid.html');
     await loadComponent('bottom', 'components/bottom.html');
+    await loadComponent('Footer', 'components/Footer.html');
     
     console.log('All components loaded');
 });

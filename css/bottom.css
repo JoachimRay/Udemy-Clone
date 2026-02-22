@@ -1,0 +1,146 @@
+.Related-Searches {
+    display: flex;
+    flex-direction: column;
+    margin-left: 310px;
+    margin-top: 10px;
+}
+
+.Title-Related-Searches { 
+        display: flex;
+        align-items: center; 
+        gap: 10px;
+}
+
+.Title-Related-Searches p { 
+    font-size: 20px; 
+    font-weight: 500;
+}
+
+.about
+{ 
+    display: inline-block;
+    margin-top: 5px;
+    width: 18px; 
+    height: 18px;
+    background-color: rgb(0, 0, 0);
+    -webkit-url: url("../assets/about.svg") no-repeat center / contain;
+    mask: url("../assets/about.svg") no-repeat center / contain;
+}
+
+.Related-Searches-Container
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1250px;
+    gap: 10px;
+}
+
+
+
+.Related-Item
+{ 
+    display: inline-flex;
+    align-items: center; 
+    justify-content: center;
+    border-radius: 20px; 
+    height: 35px;
+    width: auto;
+    padding: 0 16px;
+    white-space: nowrap;
+    color: white;
+    font-weight: 800;
+    border:none;
+    background-color:rgb(105, 1, 216)
+}
+
+
+
+.Related-Item:hover 
+{
+    cursor: pointer;
+    background-color:rgb(138, 36, 255);
+}
+
+
+.Page-Number
+{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Page-Number-Container 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.Page-Number-Item
+{
+    font-size: 14px;
+    font-weight:700;
+    color: rgb(77, 2, 161);
+    background-color: white;
+    border: none;
+    height: 25px; 
+    width: 25px;
+    border-radius: 5px;
+}
+
+.Page-Number-Item-First
+{
+    font-size: 14px;
+    font-weight:700;
+    color: rgb(77, 2, 161);
+    background-color: white;
+    border: none;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+}
+
+.Page-Number-Item:hover
+{
+    cursor: pointer;
+    background-color: rgba(216, 181, 255, 0.425);
+}
+
+.Page-Number-Item-black
+{
+    font-size: 14px;
+    font-weight:700;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border: none; 
+}
+
+
+.Previous
+{
+    display: inline-block; 
+    width: 30px; 
+    height: 30px;
+    background-color: rgba(76, 2, 161, 0.425);
+    -webkit-mask: url("../assets/next-left.svg") no-repeat center / contain;
+    mask: url("../assets/next-left.svg") no-repeat center / contain; 
+}
+
+.Next{
+    display: inline-block; 
+    width: 30px; 
+    height: 30px;
+    background-color: rgb(77, 2, 161);
+    -webkit-mask: url("../assets/next-right.svg") no-repeat center / contain;
+    mask: url("../assets/next-right.svg") no-repeat center / contain;
+}
+
+.Previous:hover, .Next:hover
+{
+    cursor: pointer;
+}
+
+
