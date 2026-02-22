@@ -1,0 +1,16 @@
+/* Main Styles - Base and Global */
+
+body
+{ 
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+}
+
+img
+{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

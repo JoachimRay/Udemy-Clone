@@ -1,0 +1,141 @@
+/* Filters Section Styles */
+
+.Filter-Container
+{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin-left: 310px;
+}
+
+.Filters
+{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    padding-top: 25px;
+}
+
+.filter-button
+{ 
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: none;
+    height: 40px;
+    padding: 0px 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    outline: 0.7px solid rgba(107, 107, 107, 0.782);
+    gap: 6px;
+}
+
+.filter-button:hover
+{
+    cursor: pointer; 
+    background-color: rgba(101, 101, 101, 0.086); 
+}
+
+.filter-text
+{ 
+    font-size: 12.5px;
+    color: rgba(15, 15, 15, 0.753);
+    white-space: nowrap;
+}
+
+.Most-Relevant-Container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.filter-Dropdown-button
+{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    margin-top: 27px;
+    padding: 0px 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.filter-Dropdown-text
+{
+    font-size: 12.5px;
+    color: rgb(78, 78, 78);
+    font-weight: 800;
+}
+
+.filter-Dropdown-button:hover 
+{
+    cursor: pointer; 
+    background-color:rgba(101, 101, 101, 0.086); 
+}
+
+/* Filter Icons */
+
+.filter-icon
+{
+    display: inline-block;
+    width: 22px; 
+    height: 22px; 
+    background-color: rgb(51, 51, 51);
+    -webkit-mask: url("../assets/Filter.svg") no-repeat center / contain;
+    mask: url("../assets/Filter.svg") no-repeat center / contain;
+}
+
+.Quizzes-icon
+{
+    display: inline-block;
+    width: 22px; 
+    height: 22px; 
+    background-color: rgb(51, 51, 51);
+    -webkit-mask: url("../assets/quizzes.svg") no-repeat center / contain;
+    mask: url("../assets/quizzes.svg") no-repeat center / contain;  
+}
+
+.Coding-icon
+{
+    display: inline-block;
+    width: 22px; 
+    height: 22px; 
+    background-color: rgb(51, 51, 51);
+    -webkit-mask: url("../assets/code.svg") no-repeat center / contain;
+    mask: url("../assets/code.svg") no-repeat center / contain;  
+}
+
+.Practice-icon
+{
+    display: inline-block;
+    width: 22px; 
+    height: 22px; 
+    background-color: rgb(51, 51, 51);
+    -webkit-mask: url("../assets/practice.svg") no-repeat center / contain;
+    mask: url("../assets/practice.svg") no-repeat center / contain;  
+}
+
+.Roleplay-icon
+{
+    display: inline-block;
+    width: 22px; 
+    height: 22px; 
+    background-color: rgb(51, 51, 51);
+    -webkit-mask: url("../assets/persons.svg") no-repeat center / contain;
+    mask: url("../assets/persons.svg") no-repeat center / contain;
+}
+
+.Dropdown-icon
+{
+    display: inline-block;
+    width: 22px; 
+    height: 22px; 
+    background-color: rgb(51, 51, 51);
+    -webkit-mask: url("../assets/dropdown.svg") no-repeat center / contain;
+    mask: url("../assets/dropdown.svg") no-repeat center / contain;
+}
